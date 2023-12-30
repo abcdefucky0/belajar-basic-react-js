@@ -45,6 +45,9 @@ const App = () => {
     <div>
       {datas.map(data => {
         return <Perkenalan nama={data.nama}  hobi={data.hobi}/>
+     //map berfungsi merender/menampilkan isi data dadi datas
+       //dan dimasukkan ke dalam variable data
+       // lalu direturn/ditampilkan dan dijalankan dlm komponen Perkenalan menggunakan props
       })}
     </div>
   )
